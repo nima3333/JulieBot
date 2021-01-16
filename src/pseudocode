@@ -1,7 +1,7 @@
 setup:
     initialize imu
     initialize motor loop
-    calibbration
+    calibration
 
 loop:
     order
