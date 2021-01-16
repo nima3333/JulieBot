@@ -1,0 +1,13 @@
+setup:
+    initialize imu
+    initialize motor loop
+    calibbration
+
+loop:
+    order
+    query imu
+    calculate angle
+    pid
+    motor
+
+motor loop
